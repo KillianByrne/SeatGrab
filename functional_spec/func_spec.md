@@ -1,13 +1,13 @@
 # Table of Contents
 1. **Introduction**
-    - 1. 1  Overview
-    - 1. 2 Business context
-    - 1. 3 Glossary.
+    - 1.1  Overview
+    - 1.2 Business context
+    - 1.3 Glossary.
 2. **General Description**
-.. 2.1 Product / System Functions
-.. 2.2 User Characteristics and Objectives
-.. 2.3 Operational Scenarios
-.. 2.4 Constraints.
+    - 2.1 Product / System Functions
+    - 2.2 User Characteristics and Objectives
+    - 2.3 Operational Scenarios
+    - 2.4 Constraints.
 3. **Functional Requirements**
 4. **System Architecture**
 5. **High-Level Design**
@@ -98,10 +98,5 @@ Next scenario: Michael finishes his study.
 Current system state: System releases this seat, and the map is updated, changing the desk that Michael was occupying from red to green.
 Informal scenario: The seat is now available for other students to use.
 Next scenario: -
-
-1. 
-    1. 
-2.
-3.
 
 

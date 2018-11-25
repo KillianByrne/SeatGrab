@@ -1,8 +1,8 @@
 # Table of Contents
 1. **Introduction**
-    1. 1  Overview
-    1. 2 Business context
-    1. 3 Glossary.
+    - 1. 1  Overview
+    - 1. 2 Business context
+    - 1. 3 Glossary.
 2. **General Description**
 .. 2.1 Product / System Functions
 .. 2.2 User Characteristics and Objectives

@@ -1,8 +1,8 @@
 # Table of Contents
 1. **Introduction**
-.. 1.1 Overview
-.. 1.2 Business context
-.. 1.3 Glossary.
+    1. 1  Overview
+    1. 2 Business context
+    1. 3 Glossary.
 2. **General Description**
 .. 2.1 Product / System Functions
 .. 2.2 User Characteristics and Objectives
@@ -99,7 +99,8 @@ Current system state: System releases this seat, and the map is updated, changin
 Informal scenario: The seat is now available for other students to use.
 Next scenario: -
 
-1.
+1. 
+    1. 
 2.
 3.
 

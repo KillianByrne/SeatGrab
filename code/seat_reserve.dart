@@ -1,4 +1,4 @@
-//Working seat_Reserve class
+//Working seat_Reserve class kill
 
 
 import 'package:flutter/material.dart';
@@ -52,15 +52,28 @@ class _MySeatReserveState extends State<SeatReserve> with TickerProviderStateMix
   @override
   Widget build(BuildContext context) {
     final size = 200.0 - 25.0 * _breathe;
-    return Scaffold(
-        appBar: AppBar(
-          title: Text('Tap the symbol to reserve a seat',
-            style: TextStyle(
-              color:Colors.white,
-            ),
-          ),),
-        body: Center(
-            child: GestureDetector(
+    return new Container(
+        child: new Stack(
+          children: <Widget>[
+            new Container(
+        decoration: BoxDecoration(
+        gradient: LinearGradient(colors:
+        [const Color(0xFF5032b6), const Color(0xFFb765d3),],
+        begin: Alignment.centerLeft,
+        end: Alignment.centerRight)
+        )),
+        new Align(alignment: Alignment.topCenter,
+    child: new Column(
+    children: <Widget>[
+    Padding(
+      padding: const EdgeInsets.all(40.0),
+      child: new Text("Tap to Reserve Your Seat!", style: new TextStyle(color: Colors.white, fontSize: 21.0, fontWeight: FontWeight.bold)),
+    ),
+           ]
+          )
+        ),
+        new Align(alignment: Alignment.center,
+          child: GestureDetector(
               onTap: _buttonTap,
               child: Container(
                 width: size,
@@ -81,7 +94,7 @@ class _MySeatReserveState extends State<SeatReserve> with TickerProviderStateMix
                 ),
               ),
             )
-        ));
+        )],));
   }
 
   void _buttonTap() {

@@ -64,40 +64,65 @@ class _MyAppState extends State<StudyPage> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: new Scaffold(
-          appBar: new AppBar(
-            title: const Text('Plugin example app'),
-          ),
           body: new SafeArea(
             top: true,
             bottom: true,
-            child: new Center(
-              child: ListView(
+            child: new Container(
+              child: Column(
                 children: <Widget>[
-                  new SizedBox(
-                    height: 10.0,
+                  Row(
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(left:25.0 ,top: 100.0),
+                      ),
+                      new Text(
+                          _nfcData != null ? 'Seat Number: ${_nfcData.content}': '',
+                        textAlign: TextAlign.end,
+                        style: TextStyle(
+                            fontSize: 10.0,
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'Raleway')),
+
+                    ],
                   ),
-                  new Text(
-                    '- NFC Status -\n',
-                    textAlign: TextAlign.center,
+                  new Center(
+                    child: new AspectRatio(
+                      aspectRatio: 487 / 451,
+                      child: new Container(
+                        margin: EdgeInsets.fromLTRB(10.0,0.0,10.0, 0.0),
+                        decoration: new BoxDecoration(
+                            image: new DecorationImage(
+                              fit: BoxFit.scaleDown,
+                              alignment: FractionalOffset.center,
+                              image: new AssetImage("assets/book.jpg"),
+                            )
+                        ),
+                      ),
+                    ),
                   ),
-                  new Text(
-                    _nfcData != null ? 'Seat number: ${_nfcData.content}' : '',
-                    textAlign: TextAlign.center,
-                      style: TextStyle(fontWeight: FontWeight. bold, fontFamily: 'Raleway')),
-                  new RaisedButton(
-                    child: Text('Start NFC'),
-                    onPressed: () {
-                      startNFC();
-                    },
-                  ),
-                  new RaisedButton(
-                    child: Text('Tap this to free seat'),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => StudyPage())
-                      );
-                    },
+                  //new Text(
+                  //    _nfcData != null ? 'Seat number: ${_nfcData.content}' : '',
+                  //    textAlign: TextAlign.center,
+                  //    style: TextStyle(fontWeight: FontWeight. bold, fontFamily: 'Raleway')),
+                  ButtonBar(
+                    alignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      new RaisedButton(
+                        child: Text('Start NFC'),
+                        onPressed: () {
+                          startNFC();
+                        },
+                      ),
+                      new RaisedButton(
+                        child: Text('Tap this to free seat'),
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => StudyPage())
+                          );
+                        },
+                      ),
+                    ],
                   ),
                 ],
               ),

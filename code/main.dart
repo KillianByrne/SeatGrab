@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import './pages/landing_page.dart';
-import './pages/login_as_user.dart';
+import 'home_widget.dart';
+void main() => runApp(App());
 
-void main() {
-  runApp(new MaterialApp(
-    home: LandingPage(),
-    routes: <String, WidgetBuilder> {
-      './SignInDemo' : (context) => SignInDemo()
-    },
-  ));
-}
+class App extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'DCU seat grab',
+      home: Home(),
+    );
+  }}
+

@@ -49,7 +49,7 @@ class _MySeatReserveState extends State<SeatReserve> with TickerProviderStateMix
     super.dispose();
   }
 
-  @override
+  @override                                         // addded a basic build method to create our page with the breathing button, the nav bar at the bottom and the title bar were created in the home_widget and this class is called from that
   Widget build(BuildContext context) {
     final size = 200.0 - 25.0 * _breathe;
     return new Container(

@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import  'dart:math';
 import 'study_page.dart';
 
-class SeatReserve extends StatefulWidget {
+class SeatReserve extends StatefulWidget {   //we used a stateful widget as we needed the class to change throughout the program.
   @override
-  _MySeatReserveState createState() => _MySeatReserveState();
+  _MySeatReserveState createState() => _MySeatReserveState();   //this does little else than create seat reserve's state class(_MyStateReserveState)
 }
 
 class _MySeatReserveState extends State<SeatReserve> with TickerProviderStateMixin {

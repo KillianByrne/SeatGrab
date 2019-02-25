@@ -25,7 +25,7 @@ class AnalyticsState extends State<Analytics> {
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 15.0, 0.0, 0.0),
       child: new TextFormField(
-        maxLines: 1,
+        maxLines: 5,
         autofocus: false,
         decoration: new InputDecoration(
             hintText: 'Add to list',

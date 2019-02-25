@@ -1,6 +1,5 @@
 //Not fully there with the database just yet,,, check out null values when trying to update to-do list ???
 
-
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -25,7 +24,7 @@ class AnalyticsState extends State<Analytics> {
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 15.0, 0.0, 0.0),
       child: new TextFormField(
-        maxLines: 5,
+        maxLines: 2,
         autofocus: false,
         decoration: new InputDecoration(
             hintText: 'Add to list',
@@ -62,11 +61,11 @@ class AnalyticsState extends State<Analytics> {
             style: TextStyle(fontSize: 19),
           ),
           SizedBox(height: 12),
-          buildTodoFormField(),
           Row(
             //now we add a row
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
+              buildTodoFormField(),
               FlatButton(
                 onPressed: () => updateData(doc),              //first button is update data made with a simple flat button
                 child:
@@ -97,7 +96,7 @@ class AnalyticsState extends State<Analytics> {
         //NB try tp keep within theme ???
         decoration: InputDecoration(
           border: InputBorder.none,
-          hintText: 'Please enter your the module',
+          hintText: 'Please enter the module',
           //hint text for our input form
           fillColor: Colors.grey[300],
           filled: true,

@@ -2,7 +2,7 @@
 
 ---
 ### Table of contents
-1.
+1. Ethical approval
 2.
 3.
 4. Manual testing
@@ -11,7 +11,9 @@
 
 ---
 
-# 1.
+# 1. Ethical Approval
+
+We seeked ethical approval as we are of the opinion that User testing is a vital part of the testing process, and we wanted to ensure the participant was protected through all stages of the testing process, as well as the user of the system. Ethical approval also allows the option for real users to log in to the system, which encourages real world capabilities.
 
 ---
 

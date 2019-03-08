@@ -3,7 +3,7 @@
 ---
 ### Table of contents
 1. Ethical approval
-2. 
+2. Package Testing
 3. Widget Testing
 4. Manual testing
 5. User testing
@@ -18,7 +18,11 @@ We seeked ethical approval as we are of the opinion that User testing is a vital
 
 ---
 
-# 2.
+# 2. Package Testing
+
+In order to check our packages were functioning correctly we ran a number of package tests. This was especially important for features such as firebase auth. An example of one of these tests (firebase auth) is shown below.
+
+![](testing/images/firebase_auth_tes.PNG)
 
 ---
 

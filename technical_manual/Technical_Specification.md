@@ -168,7 +168,7 @@ __Problem__: Another problem we encountered was the fact that NFC tags didn’t 
 
 
 ___
-## 4.2 Download and Instillation guide
+## 4.2 Download Information
 
 Currently, as SeatGrab exists, it is a proof of concept. The application is also environment specific meaning that each new area would need a new map. This means that publishing the application in its current state would be of little to no use. Another reason is that we are planning on persuing this idea as a business and would therefore like more time to explore ways of making the map adapatable before publishing the application.
 

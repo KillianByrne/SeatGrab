@@ -140,10 +140,12 @@ __Stage 11__ – Access Library Information: The users can access the DCU librar
 
 __Stage 12__ – Logout: This option is always visible in the top-right hand corner of the app bar and when tapped will log the user out of the application using Firebase Authentication.  This will automatically redirect the user to the Login Page where they can login again if they choose to do so.
 
+___
+## 3.4 Data Flow Diagram
 
+![](technical_manual/images/data_flow_diagram.png)
 
-
-
+The data flow diagram shows the flow of data in SeatGrab. It shows how the user, NFC tag, admin, and databse interact with eachother and type of data is trasfered between them. This is repersented by arrows, with the information passing displayed in a list format directly above the arrows.
 
 ___
 ## 4.1 Problems and Resolutions

@@ -156,6 +156,7 @@ System testing can only be done when all components of the system are integrated
 - NFC tag updates database succesfully: Success
 - Accelerometer activates successfully after user occupies seat: Success
 - Accelerometer does not activate before occupying seat: Success
+- Accelerometer deactivates when seat rescanned/removed: Success
 - Database is updated when accelerometer detects set value is exceeded: Success
 - Database does not trigger when accelerometer value has not been exceeded: Success
 - Pop up window appears when user breaks accelerometer set value: Success
@@ -173,7 +174,7 @@ System testing can only be done when all components of the system are integrated
 - Admin taps the list tile with "Remove user" and database succesfully removes user: Success
 - Admin succesfully logs out and is navigated back to the home screen: Success
 
-This test notified us of bugs with changing the status of a desk from occupied to available and the accelerometer not turning off when a seat has been made available. Fixing the status of a recently made available desk was an easy fix. The accelerometer took more time because we had only used the accelerometer on one page that did not navigate away. The bug was fixed eventually. This was a useful piece of system testing that identified a bug before we could present it to people.
+On first attempt, this test notified us of bugs with changing the status of a desk from occupied to available and the accelerometer not turning off when a seat has been made available. Fixing the status of a recently made available desk was an easy fix. The accelerometer took more time because we had only used the accelerometer on one page that did not navigate away. The bug was fixed eventually. This was a useful piece of system testing that identified a bug before we could present it to people.
 
 ---
 # 7. Heuristic evaluation
@@ -214,14 +215,22 @@ INSERT IMAGE
 INSERT IMAGE
 
 7.7 Flexibility and ease of use
-- 
+- Accelerators may often speed up the interaction for the expert user so that the system can cater to both inexperienced and experienced users. This principle applies to the Study planner section. Once a user has logged in their study details, the data is saved in the database and can be accessed at any time. This removes the need for the user to have to add in the same study details over and over again. A potential application of this principle to our application would be to add favourite seats, but this did not fit into our functionality. We require the user to be physically standing at the desk to remove users trying to book a seat. 
+
+INSERT IMAGE
 
 7.8 Aesthetic and minimalist design
+- This principle refers to only including relevant pieces of dialogue on the page for the user. Any needless dialogue hinders the overall user experience. This principle was applied when removing a page from the application. Previously there was a home page which would lead the reservation page. The home page was needless, and only increased the number of clicks required to get to the required reservation page. This principle was also referenced to when designing the UI. Several UI designs were made until we arrived at the current design. The process involved trying to remove anything unnecessary from the design.
+
+INSERT IMAGE
 
 7.9 Help users recognize, diagnose and recover from errors
+- This principle states that error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution. This principle is demonstrated when the user enters the wrong DCU email and password. An error message informs them that the information is incorrect.
+
+INSERT IMAGE
 
 7.10 Help and documentation
-
+- This principle simply states that help and doumentation must be available to the user. Our user manual can be found [here](https://gitlab.computing.dcu.ie/byrnek68/2019-ca326-byrnek68-libraryapp/blob/master/user_manual/user_manual.md). The user manual provides documentation on all possible use cases of the application and how to perform each task possible within the application.
 
 
 

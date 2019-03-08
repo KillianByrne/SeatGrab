@@ -50,6 +50,8 @@ If you have any positive or negative comments about the design of the applicatio
 
 How would you rate the ease of use out of 10: (1-10)
 
+![](testing/images/survey1chrt2.png)
+
 If you have any positive or negative comments about the ease of us of the application, please leave them here:
 
 - process of reserving a seat was confusing
@@ -57,6 +59,8 @@ If you have any positive or negative comments about the ease of us of the applic
 - could be less clicks to reserve a seat
 
 Does the system function as you require:
+
+![](testing/images/survey1chrt3.png)
 
 If you chose "No" to the previous question, please mention why so, below:
 - 0 responses
@@ -86,6 +90,46 @@ As seen above, we recieved several comments mentioning that our home page was hi
 
 Once we had re-designed the application with the survey participants' opinion's on board, we invited the same participants back to complete the same survey again. The user's took part in the same process as before: participants maneouvred through our application, making use of the functionalities of the application and when they finished they were asked to fill out the same survey as before. We were extremely pleased with the results from the second survey. Participants reported an improvement in the reservation process compared to their first use of the app, and reported their approval of the removal of the old home page. This was reflected in their quantatative results of the usability and design of the survey. The results were more concentrated towards the higher end of the scale from 7-9, in comparison to the previous survey where results varied from 4-10. 
 Aside from the improvement detailed above, this survey also provided us with ideas for future work with this application. We recieved great suggestions from participants. There may be issues with GDPR with tracking what users occupy what seat etc. as that would collect personal data from the user. We do intend to follow up with adding some sort of analytical tool that will present the user with the occupancy rate throughout the day and busy areas of the library too.
+
+Out of ten, how would you rate the design of our system: (1-10)
+
+![](testing/images/survey2chrt1.png)
+
+If you have any positive or negative comments about the design of the application, please leave them here:
+
+- good colour scheme
+- application is smooth to use
+- found it easy to move around the app without getting lost
+
+How would you rate the ease of use out of 10: (1-10)
+
+![](testing/images/survey2chrt2.png)
+
+If you have any positive or negative comments about the ease of us of the application, please leave them here:
+- reserve a seat process quicker than last time
+- scanning process seems simpler
+- reservation process is quicker than the old process
+
+Does the system function as you require:
+
+![](testing/images/survey2chrt3.png)
+
+If you chose "No" to the previous question, please mention why so, below:
+
+- -
+
+What did you find difficult, if anything, using this application:0 responses
+
+- -
+
+Is there anything you would add to the application, that you think is necessary:
+
+- busy times of library 
+- most used seat, most frequent hour etc
+
+What parts, if any, did you find unnecessary in the application:
+
+--
 
 Our survey can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSdiHchtnUTVw6HJivAAIYsN8HhsHhFUvVQk2JiZsWLSjW6Fzw/viewform)
 

@@ -22,15 +22,17 @@ We seeked ethical approval as we are of the opinion that User testing is a vital
 
 In order to check our packages were functioning correctly we ran a number of package tests. This was especially important for features such as firebase auth. An example of one of these tests (firebase auth) is shown below.
 
-##Firebase Auth Test
+## Firebase Auth Test
 
 ![](testing/images/firebase_auth_tes.PNG)
 
-##Flutter Sensors Test
+## Flutter Sensors Test
 
 ![](testing/images/sensorstest.PNG)
 
-##Firebase Cloud Test
+## Firebase Cloud Test
+
+![](testing/images/firebasecore.PNG)
 
 ---
 

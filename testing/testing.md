@@ -35,13 +35,57 @@ Manual testing was prevelant throughout the development of the application. Thro
 
 User testing is a crucial part of testing software. User testing gives developers feedback as to whether the user can use the software, if not why so, and what problems were encountered or identified. This is also a useful exercise for developers to take on a different point of view of the application, and the different opinions that come with these points of view. It is very easy for a developer to neglect elements of the UI or functionality if there is no diversity of opinion.
 It is important to note that we seeked ethical approval in order to carry out user testing. Our ethical approval submission can be found on this project page, in the "docs" repo, "docs/ethics.pdf".
-The user testing was carried out with an anonymous survey. Accompanying the survey, was a plain language statement and an informed consent form for participants of the survey. The ethical approval form can be found in the docs repo, under "docs/ethics.pdf". In the survey we asked the participants' several questions after they had used the application to complete tasks within the app. We asked the participants did they find the design of the application effective? ie how easy was it to use. We asked them did the system serve the function they desired from it. We asked was the UI confusing/ impact negatively upon the user's experience. We asked, if anything, what did they find difficult using the application. We asked did they feel any parts of the applcation were unnecessary and would they add anything to the application.
+The user testing was carried out with an anonymous survey. Participants used the application then filled out an accompanying survey. Accompanying the survey, was a plain language statement and an informed consent form for participants of the survey. The ethical approval form can be found in the docs repo, under "docs/ethics.pdf". In the survey we asked the participants' several questions after they had used the application to complete tasks within the app. We asked the participants did they find the design of the application effective? ie how easy was it to use. We asked them did the system serve the function they desired from it. We asked was the UI confusing/ impact negatively upon the user's experience. We asked, if anything, what did they find difficult using the application. We asked did they feel any parts of the applcation were unnecessary and would they add anything to the application.
 The results from the testing are displayed below.
 
-User testing did force us to take on board feedback from users as problems were brought to our attention. Overall, the feedback was what we would have hoped for as we recieved very positive responses from participants and a problem was brought to our attention which we could fix before submitting the prject. 
+Out of ten, how would you rate the design of our system: (1-10)
 
-We recieved several comments mentioning that our home page was hindering the efficiency of reserving a seat. We also recieved comments suggesting to remove the home page. The feedback is included below:
+If you have any positive or negative comments about the design of the application, please leave them here:
+- home page delays process of adding a seat
+- How to reserve seats is unclear
+- Love the design of it
+- UI looks good, colour scheme is effective 
 
+How would you rate the ease of use out of 10: (1-10)
+
+If you have any positive or negative comments about the ease of us of the application, please leave them here:
+
+- process of reserving a seat was confusing
+- home page delayed the process
+- could be less clicks to reserve a seat
+
+Does the system function as you require:
+
+If you chose "No" to the previous question, please mention why so, below:
+- 0 responses
+
+What did you find difficult, if anything, using this application:
+
+- reserving a seat
+- Reserving the seat itself
+- scanning a tag was confusing as i have never done this before
+- 
+Is there anything you would add to the application, that you think is necessary:
+
+- busy times of the library
+- a profile to show details such as total time spent in library, most common time, most used seat etc
+- Make the reservation button clearer
+
+What parts, if any, did you find unnecessary in the application:
+ 
+- home page
+- The main screen button
+- who is sitting at what desk
+- home page was unnecessary
+
+User testing did force us to take on board feedback from users as problems were brought to our attention. Overall, the feedback was what we would have hoped for as we recieved positive responses from participants, problems were brought to our attention and opinions were taken on board. It was clear that there was room to improve.
+
+As seen above, we recieved several comments mentioning that our home page was hindering the efficiency of reserving a seat. We also recieved comments suggesting to remove the home page. We took this feedback on board and changed the design of the application to how it is now. We removed the old home page from the application, made the instructions more clear and provided more pop up updates to users to help them know what stage in the process they are at. 
+
+Once we had re-designed the application with the survey participants' opinion's on board, we invited the same participants back to complete the same survey again. The user's took part in the same process as before: participants maneouvred through our application, making use of the functionalities of the application and when they finished they were asked to fill out the same survey as before. We were extremely pleased with the results from the second survey. Participants reported an improvement in the reservation process compared to their first use of the app, and reported their approval of the removal of the old home page. This was reflected in their quantatative results of the usability and design of the survey. The results were more concentrated towards the higher end of the scale from 7-9, in comparison to the previous survey where results varied from 4-10. 
+Aside from the improvement detailed above, this survey also provided us with ideas for future work with this application. We recieved great suggestions from participants. There may be issues with GDPR with tracking what users occupy what seat etc. as that would collect personal data from the user. We do intend to follow up with adding some sort of analytical tool that will present the user with the occupancy rate throughout the day and busy areas of the library too.
+
+Our survey can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSdiHchtnUTVw6HJivAAIYsN8HhsHhFUvVQk2JiZsWLSjW6Fzw/viewform)
 
 
 # 6. System testing: 
@@ -82,7 +126,7 @@ System testing can only be done when all components of the system are integrated
 - Admin taps the list tile with "Remove user" and database succesfully removes user: Success
 - Admin succesfully logs out and is navigated back to the home screen: Success
 
-This test notified us of bugs 
+This test notified us of bugs with changing the status of a desk from occupied to available and the accelerometer not turning off when a seat has been made available. Fixing the status of a recently made available desk was an easy fix. The accelerometer took more time because we had only used the accelerometer on one page that did not navigate away. The bug was fixed eventually. This was a useful piece of system testing that identified a bug before we could present it to people.
 
 
 ---

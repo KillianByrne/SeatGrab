@@ -40,7 +40,7 @@ The results from the testing are displayed below.
 
 Out of ten, how would you rate the design of our system: (1-10)
 
-![](testing/images/survey1chrt1.png)
+![](testing/images/survey1chrt3.png)
 
 If you have any positive or negative comments about the design of the application, please leave them here:
 - home page delays process of adding a seat
@@ -60,7 +60,7 @@ If you have any positive or negative comments about the ease of us of the applic
 
 Does the system function as you require:
 
-![](testing/images/survey1chrt3.png)
+![](testing/images/survey1chrt1.png)
 
 If you chose "No" to the previous question, please mention why so, below:
 - 0 responses

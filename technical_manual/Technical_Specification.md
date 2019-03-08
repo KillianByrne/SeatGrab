@@ -18,6 +18,7 @@ ___
     * 4.1 Problems and Resolutions
     * 4.2 Download Information
     * 4.3 Dependencies used in our project
+    * 4.4 Main resources used throughout our project
 
 ___
 ## 1. 1 Introduction
@@ -200,5 +201,20 @@ __Rxdart__: A dart package that is a functional programming library for Google D
 
 __Http__: A library for dart that allows the program to make HTTP requests easily and efficiently. 
 
-__animated_text_kit__: This is a package SeatGrab uses to implement the flashing loading sign when a user is connecting to a desk. 
+__animated_text_kit__: This is a package SeatGrab uses to implement the flashing loading sign when a user is connecting to a desk.
+
+
+## 4.4 Main resources used throughout our project:
+__Flutter Documentation__: https://flutter.dev/docs
+__Jeff Delaney Tutorials__: https://fireship.io/lessons/flutter-firebase-google-oauth-firestore/
+__Medium.com flutter page__: https://medium.com/flutter-io
+__StackOverflow flutter section__: https://stackoverflow.com/questions/tagged/flutter
+__Firebase Console Documentation__: https://firebase.google.com/docs/
+__Flutter's github page__: https://github.com/flutter/flutter
+
+
+
+
+
+
 

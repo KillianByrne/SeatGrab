@@ -3,8 +3,8 @@
 ---
 ### Table of contents
 1. Ethical approval
-2.
-3.
+2. 
+3. Widget Testing
 4. Manual testing
 5. User testing
 6. System testing
@@ -22,7 +22,14 @@ We seeked ethical approval as we are of the opinion that User testing is a vital
 
 ---
 
-# 3.
+# 3. Widget Testing
+ 
+In order to check if our Study Page widget was being displayed correctly we utilized some widget tests. This ensured the data we needed was being displayed correctly on the study page, and also if functions were working correctly. A sample of the tests and the results to those  tests are shown below.
+
+![](testing/images/widget_tests.PNG)
+![](testing/images/widget_tests_passed.PNG)
+
+
 
 ---
 

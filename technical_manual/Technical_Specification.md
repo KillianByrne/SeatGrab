@@ -1,5 +1,5 @@
 # Technical Specification 
-## John Griffin & Killian Byrne
+## John Griffin & Killian Byrne - SeatGrab
 ___
 ## Table of Contents
 1. Introduction 
@@ -78,6 +78,7 @@ Our system involves two sets of users, administration staff and students. The st
 
 
 ___
+## 3 System Architecture Diagram
 
 ![](technical_manual/images/architecture_for_seatgrab.png)
 

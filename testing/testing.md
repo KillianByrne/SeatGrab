@@ -28,7 +28,7 @@ In order to check our packages were functioning correctly we ran a number of pac
 
 ##Flutter Sensors Test
 
-![](testing/images/sensorestest.PNG)
+![](testing/images/sensorstest.PNG)
 
 ##Firebase Cloud Test
 

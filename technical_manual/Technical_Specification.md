@@ -16,7 +16,7 @@ ___
     * 3.4 Data Flow Diagram
 4.  Misc
     * 4.1 Problems and Resolutions
-    * 4.2 Download and Installation Guide
+    * 4.2 Download Information
     * 4.3 Dependencies used in our project
 
 ___
@@ -170,7 +170,7 @@ __Problem__: Another problem we encountered was the fact that NFC tags didn’t 
 ___
 ## 4.2 Download and Instillation guide
 
-
+Currently, as SeatGrab exists, it is a proof of concept. The application is also environment specific meaning that each new area would need a new map. This means that publishing the application in its current state would be of little to no use. Another reason is that we are planning on persuing this idea as a business and would therefore like more time to explore ways of making the map adapatable before publishing the application.
 
 
 

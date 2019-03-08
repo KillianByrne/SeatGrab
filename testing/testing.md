@@ -20,7 +20,7 @@ We seeked ethical approval as we are of the opinion that User testing is a vital
 
 # 2. Package Testing
 
-In order to check our packages were functioning correctly we ran a number of package tests. This was especially important for features such as firebase auth. An example of one of these tests (firebase auth) is shown below.
+In order to check our packages were functioning correctly we ran a number of package tests. This was especially important for features such as firebase auth. Some examples of these tests are shown below.
 
 ## Firebase Auth Test
 
@@ -30,7 +30,7 @@ In order to check our packages were functioning correctly we ran a number of pac
 
 ![](testing/images/sensorstest.PNG)
 
-## Firebase Cloud Test
+## Firebase Core Test
 
 ![](testing/images/firebasecore.PNG)
 

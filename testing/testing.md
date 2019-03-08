@@ -40,6 +40,8 @@ The results from the testing are displayed below.
 
 Out of ten, how would you rate the design of our system: (1-10)
 
+![](testing/images/survey1chrt1.png)
+
 If you have any positive or negative comments about the design of the application, please leave them here:
 - home page delays process of adding a seat
 - How to reserve seats is unclear

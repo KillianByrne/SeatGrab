@@ -206,10 +206,15 @@ __animated_text_kit__: This is a package SeatGrab uses to implement the flashing
 
 ## 4.4 Main resources used throughout our project:
 __Flutter Documentation__: https://flutter.dev/docs
+
 __Jeff Delaney Tutorials__: https://fireship.io/lessons/flutter-firebase-google-oauth-firestore/
+
 __Medium.com flutter page__: https://medium.com/flutter-io
+
 __StackOverflow flutter section__: https://stackoverflow.com/questions/tagged/flutter
+
 __Firebase Console Documentation__: https://firebase.google.com/docs/
+
 __Flutter's github page__: https://github.com/flutter/flutter
 
 

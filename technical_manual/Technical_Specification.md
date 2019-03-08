@@ -78,6 +78,7 @@ Our system involves two sets of users, administration staff and students. The st
 
 ___
 
+![](technical_manual/images/ architecture_for_seatgrab.png)
 
 ## 3.1 System Architecture
  
@@ -103,7 +104,7 @@ ___
 
 ## 3.2 High-Level Design Diagram
 
-
+![](technical_manual/images/highlevel.jpg)
 
  
 

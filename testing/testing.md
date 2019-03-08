@@ -7,7 +7,8 @@
 3.
 4. Manual testing
 5. User testing
-6. 
+6. System testing
+7. Heuristic evaulation
 
 ---
 
@@ -27,20 +28,20 @@ We seeked ethical approval as we are of the opinion that User testing is a vital
 
 # 4. Manual testing
 
-Manual testing was prevelant throughout the development of the application. Through use of Android studio's "hot reload" feature with an emulator or Android phone, manual testing proved a quick and efficient way to test if the output was what we desired. A simple print statement frequently provided the insight needed when our expectations of the output of our script did not meet the reality of the output. No doubt many errors and bugs were caught early on due to the efficiency of manual testing in Android Studio. 
+Manual testing was prevelant throughout the development of the application. Manual testing was perhaps the most consistently useful type of testing throughout the development of the application. Learning a new language and learning how to use a new framework had it's difficulties, but through use of Android studio's "hot reload" feature with an emulator or Android phone, manual testing increased our understanding of how everything was working. "Hot reload" is useful because it does not build the gradle or download dependencies within the project, it only reloads any dart files that have changed since the last upload. So a hot reload along with several print statements was the key for solving many of our largest problems encountered along the way. A simple print statement frequently provided the insight needed when our expectations of the output of our script did not meet the reality of the output. No doubt many errors and bugs were caught early on due to the efficiency of manual testing in Android Studio. Manual testing proved useful in particular with the accelerometer and NFC tags. Printing out accelerometer values to the screen of the phone was key when we were trying to gauge what is a reasonable value to detect within a student's phone that will determine they have left their seat. This involved walking around with the phone, and observing how much the values change with movement. A similar process of ouputting the "NFCData" (is a type) values for scanning different tags and gauging how long the tags typically take to be read by the phone. 
 
 ---
 
 # 5. User Testing
 
 User testing is a crucial part of testing software. User testing gives developers feedback as to whether the user can use the software, if not why so, and what problems were encountered or identified. This is also a useful exercise for developers to take on a different point of view of the application, and the different opinions that come with these points of view. It is very easy for a developer to neglect elements of the UI or functionality if there is no diversity of opinion.
-It is important to note that we seeked ethical approval in order to carry out user testing. Our ethical approval submission can be found on this project page, in the "docs" repo, "docs/ethics.pdf".
+It is important to note that we seeked ethical approval in order to carry out user testing. Our ethical approval submission can be found on this project page, in the "docs" repo, "docs/ethics.pdf". Before participants could complete the survey, they were presented with our plain language statement and had to complete our informed consent form. This can be observed  [here](https://docs.google.com/forms/d/e/1FAIpQLSdiHchtnUTVw6HJivAAIYsN8HhsHhFUvVQk2JiZsWLSjW6Fzw/viewform)
 The user testing was carried out with an anonymous survey. Participants used the application then filled out an accompanying survey. Accompanying the survey, was a plain language statement and an informed consent form for participants of the survey. The ethical approval form can be found in the docs repo, under "docs/ethics.pdf". In the survey we asked the participants' several questions after they had used the application to complete tasks within the app. We asked the participants did they find the design of the application effective? ie how easy was it to use. We asked them did the system serve the function they desired from it. We asked was the UI confusing/ impact negatively upon the user's experience. We asked, if anything, what did they find difficult using the application. We asked did they feel any parts of the applcation were unnecessary and would they add anything to the application.
 The results from the testing are displayed below.
 
 Out of ten, how would you rate the design of our system: (1-10)
 
-![](testing/images/survey1chrt3.png)
+![](testing/images/survey1chrt1.png)
 
 If you have any positive or negative comments about the design of the application, please leave them here:
 - home page delays process of adding a seat
@@ -60,7 +61,7 @@ If you have any positive or negative comments about the ease of us of the applic
 
 Does the system function as you require:
 
-![](testing/images/survey1chrt1.png)
+![](testing/images/survey1chrt3.png)
 
 If you chose "No" to the previous question, please mention why so, below:
 - 0 responses
@@ -174,5 +175,29 @@ System testing can only be done when all components of the system are integrated
 
 This test notified us of bugs with changing the status of a desk from occupied to available and the accelerometer not turning off when a seat has been made available. Fixing the status of a recently made available desk was an easy fix. The accelerometer took more time because we had only used the accelerometer on one page that did not navigate away. The bug was fixed eventually. This was a useful piece of system testing that identified a bug before we could present it to people.
 
-
 ---
+# 7. Heuristic evaluation
+
+Having completed Human computer interaction in semester one this year, we felt that this module had useful information that we could apply to our project. We learnt about Nielsen's 10 principles for interaction design. These principles are applicable to us due to the high amount of user interaction in our application. 
+
+7.1 Visibility of system status
+
+- This principle states that the user needs to be informed about what is happening and/or what they are doing within the application. We recieved feedback in our user testing to make the user more informed about where they are in the seat reservation process. The feedback was taken on board and we included more pop ups to the reservatin process and included clearer instructions of their status. 
+INSERT PICTURE HERE
+
+7.2 Match between system and real world
+
+- This principle states that the system should speak the user's language and concepts should be familiar to the user, rather system oriented terms. 
+
+
+
+
+
+
+
+
+
+
+
+
+

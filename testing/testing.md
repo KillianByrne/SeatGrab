@@ -182,13 +182,45 @@ Having completed Human computer interaction in semester one this year, we felt t
 
 7.1 Visibility of system status
 
-- This principle states that the user needs to be informed about what is happening and/or what they are doing within the application. We recieved feedback in our user testing to make the user more informed about where they are in the seat reservation process. The feedback was taken on board and we included more pop ups to the reservatin process and included clearer instructions of their status. 
+- This principle states that the user needs to be informed about what is happening and/or what they are doing within the application. We recieved feedback in our user testing to make the user more informed about where they are in the seat reservation process. The feedback was taken on board and we included more pop ups to the reservation process and included clearer instructions of their status. The user is now informed when they have successfully reserved a seat, when they have left their seat, and when the admin has been notified of their absence.
+
 INSERT PICTURE HERE
 
 7.2 Match between system and real world
 
-- This principle states that the system should speak the user's language and concepts should be familiar to the user, rather system oriented terms. 
+- This principle states that the system should speak the user's language and concepts should be familiar to the user, rather than technical concepts that the target audience would be unfamiliar with. A well designed system that follows real world conventions will make the learning process for the user as easy as possible. This was brought to our attention during the user testing. User's complained that the reservation process took too many clicks. Previously we required the user to scan the tag, then click another button to update the database. This was altered so that when the button is pressed, the application waits for the tag to be scanned, and then updates the database. Once this feature was added, and a second survey was done (see User Testing), the results of the ease of use increased in comparison to the first survey. We can recognise that the old implementation is alien to the average application user as they are not aware of having to manually update a datdbase.
 
+INSERT PICTURE
+
+7.3 User control and freedom
+
+- This principle states a system must be able to support undo and redo functions as a user can make a mistake. We have a bottom navigation bar in our application that allows free navigation between all pages. This allows to change back to any page they were on previously.
+
+INSERT IMAGE
+
+7.4 Consistency and standards
+- Users should not have to wonder whether different words, situations, or actions mean the same thing. This principle is demonstrated with our consistent UI design throughout the application, with clear instructions and labelling throughout reservation process and administrator removal process, and the clear labelling for the two different logins on the login page.
+
+INSERT IMAGE
+
+7.5 Error prevention
+- Effective design will not inform users of errors, but instead prevent errors from occuring. This is demonstrated when incrementing and decrementing the total count of the occupancy in the library. Users are presented with occupancy rate at the top of the map page in the application. We identified several use cases in which the count could decrement below zero or increment above 9 (total number of seats used for proof of concept). Conditions were successfully put in place to prevent this error from occurring (if statements were used to check the count before adding or subtracting from the count). 
+
+INSERT IMAGE
+
+7.6 Recognition rather than recall
+- This principle states that the system should seek to minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate. This principle was applicable to the reservation process. As previously mentioned, we reduced the number of clicks required for the user to scan and reserve a seat. The design was changed so that the user simply needed to click a button to trigger the whole process. This principle was also applicable to the administrator removal process. The administrator is presented with a list of all seats. When conditions are met for the admin to remove the user, text is outputted "Tap to remove user" is alongside the seat number. 
+
+INSERT IMAGE
+
+7.7 Flexibility and ease of use
+- 
+
+7.8 Aesthetic and minimalist design
+
+7.9 Help users recognize, diagnose and recover from errors
+
+7.10 Help and documentation
 
 
 

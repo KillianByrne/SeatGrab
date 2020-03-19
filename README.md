@@ -1,2 +1,2 @@
-# 2019-CA326-byrnek68-libraryApp
-
+# SeatGrab
+A third year project undertaken during Computer Applications and Software Engineering (CASE) in DCU. See 
